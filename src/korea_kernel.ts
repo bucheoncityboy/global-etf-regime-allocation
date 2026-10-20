@@ -20,6 +20,21 @@ def korea_check_inputs():
         for item in json.loads((KR/manifest).read_text())['sources']:
             require(digest(ROOT/'data/private/korea/raw'/item['path'])==item['sha256'],'Korean raw response changed: '+item['path'])
 
+def korea_prior_observations(s,cal,name):
+    # A long Korean exchange closure is not a missing published observation.
+    # Keep the calendar-day limit unless the source reaches the prior XKRX session.
+    pos=s.index.searchsorted(cal,side='left')-1;ok=pos>=0
+    out=pd.Series(np.nan,index=cal);out.loc[ok]=s.iloc[pos[ok]].to_numpy()
+    observed=pd.Series(pd.NaT,index=cal);observed.loc[ok]=s.index[pos[ok]].to_numpy()
+    previous=pd.Series(cal,index=cal).shift(1)
+    age=pd.Series(np.nan,index=cal);age.loc[ok]=(cal[ok]-s.index[pos[ok]]).days
+    long_gap=age>10;verified_closure=observed>=previous
+    require(not (long_gap & ~verified_closure).any(),'Stale ECOS observation '+name)
+    closures=[{'signal_date':date,'observation_date':observed.loc[date],
+        'previous_krx_session':previous.loc[date],'calendar_days':int(age.loc[date])}
+        for date in cal[long_gap & verified_closure]]
+    return out,{'max_age_calendar_days':int(age.max()),'verified_exchange_closures':closures}
+
 def korea_prepare():
     import re,io,pandas_market_calendars as pmc
     raw=ROOT/'data/private/korea/raw';stock={}
@@ -57,7 +72,7 @@ def korea_prepare():
                 rounding_count+=1;rounding_max_error=max(rounding_max_error,error)
         previous=(date,items)
     require(len(cross_match)>5000 and np.mean(cross_match)>=.99,'KIS/Hankyung aggregate identity alignment below 99%')
-    known={};observations={};ages={}
+    known={};observations={};ages={};observation_checks={}
     for name,spec in C['ecos'].items():
         entries=[]
         for path in raw.glob(name+'_*.json'):
@@ -66,11 +81,9 @@ def korea_prepare():
         require(entries and all(x['STAT_CODE']==spec['table'] and x['ITEM_CODE1']==spec['item'] and x['ITEM_NAME1']==spec['name'] for x in entries),'Wrong ECOS identity '+name)
         s=pd.Series([float(x['DATA_VALUE']) for x in entries],index=pd.to_datetime([x['TIME'] for x in entries])).sort_index()
         require(not s.index.has_duplicates,'Duplicate ECOS observation '+name);observations[name]=s
-        pos=s.index.searchsorted(cal,side='left')-1
         # The first raw sessions can precede the first eligible lagged observation; they are warmup only.
-        ok=pos>=0;out=pd.Series(np.nan,index=cal);out.loc[ok]=s.iloc[pos[ok]].to_numpy()
-        age=(cal[ok]-s.index[pos[ok]]).days;require(age.max()<=10,'Stale ECOS observation '+name)
-        known[name]=out;ages[name]=int(age.max())
+        known[name],observation_checks[name]=korea_prior_observations(s,cal,name)
+        ages[name]=observation_checks[name]['max_age_calendar_days']
     levels['USD']=observations['USD'].reindex(cal)
     levels=levels.reindex(columns=ASSETS);require(levels.notna().all().all() and (levels>0).all().all(),'Missing asset level; no interpolation allowed')
     returns=levels.pct_change(fill_method=None);rf=known['cash']/100/252
@@ -107,7 +120,8 @@ def korea_prepare():
     (ROOT/'data/private/korea/prepared.pkl').write_bytes(pickle.dumps(data,protocol=5))
     write_json(KR/'jobs.json',jobs)
     write_json(KR/'input-receipt.json',{'input_files':korea_input_receipt(),'prepared_sha256':digest(ROOT/'data/private/korea/prepared.pkl'),'sessions':len(cal),'first':cal[0],'last':cal[-1],
-        'assets':C['series'],'market_max_age_days':ages,'price_interpolations':0,'calendar_intersection_drops':0,
+        'assets':C['series'],'market_max_age_days':ages,'observation_availability_checks':observation_checks,
+        'price_interpolations':0,'calendar_intersection_drops':0,
         'calendar_library':importlib.metadata.version('pandas-market-calendars'),'calendar':list(cal.strftime('%Y-%m-%d')),
         'cross_checks':{'kis_hankyung_days':len(cross_match),'match_fraction_within_0_011':float(np.mean(cross_match)),
             'max_secondary_difference':max(cross),'secondary_discrepancies':cross_issues,

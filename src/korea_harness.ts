@@ -9,6 +9,17 @@ assert.equal(config.assets.length,8);assert.equal((config['minimum_bullish_asset
 await koreaRun(config,String.raw`
 import tempfile,copy
 from scipy.optimize import brentq
+# The 2017 Chuseok closure spans 11 calendar days between observed sessions.
+holiday_cal=pd.to_datetime(['2017-09-28','2017-09-29','2017-10-10','2017-10-11'])
+rates=pd.Series([2.1,2.2,2.3,2.4],index=holiday_cal)
+lagged,availability=korea_prior_observations(rates,holiday_cal,'holiday-fixture')
+require(lagged.loc['2017-10-10']==2.2,'Closure handling used a same-day or invented observation')
+require(availability['max_age_calendar_days']==11 and len(availability['verified_exchange_closures'])==1,'Closure exception was not audited')
+mutated=rates.copy();mutated.loc['2017-10-10':]+=100
+require(korea_prior_observations(mutated,holiday_cal,'future-fixture')[0].loc['2017-10-10']==2.2,'Rate alignment used current/future information')
+try:korea_prior_observations(rates.iloc[:2],pd.bdate_range('2017-09-28','2017-10-11'),'stale-fixture')
+except RuntimeError as e:require('Stale ECOS observation' in str(e),'Wrong stale-rate guard')
+else:raise RuntimeError('Missing observations across open sessions accepted as a holiday')
 with tempfile.TemporaryDirectory(prefix='korea-unit-fixture-') as td:
     ROOT=Path(td);KR=ROOT/'results/korea';KR.mkdir(parents=True)
     (ROOT/'data/private/korea').mkdir(parents=True)
