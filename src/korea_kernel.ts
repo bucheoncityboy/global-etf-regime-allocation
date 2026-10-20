@@ -117,7 +117,7 @@ def korea_prepare():
     korea_check_inputs();print(f'Korean panel prepared: {len(cal)} sessions; {len(jobs)} fold/asset jobs',flush=True)
 
 def korea_cache():
-    key=hashlib.sha256((digest(ROOT/'src/korea_kernel.ts')+digest(ROOT/'configs/korea.json')+digest(KR/'input-receipt.json')+digest(ROOT/'uv.lock')).encode()).hexdigest()
+    key=hashlib.sha256((digest(ROOT/'src/kernel.ts')+digest(ROOT/'src/korea_kernel.ts')+digest(ROOT/'configs/korea.json')+digest(KR/'input-receipt.json')+digest(ROOT/'uv.lock')).encode()).hexdigest()
     return ROOT/'data/private/korea/cache'/key
 
 def korea_fit(job,d,cache_dir=None):
@@ -330,11 +330,20 @@ def korea_verify():
     d=korea_load();require(not d.get('synthetic_test_fixture',False),'Synthetic fixtures cannot validate a financial experiment')
     korea_check_inputs();nav=pd.read_parquet(KR/'nav.parquet');target=pd.read_parquet(KR/'targets.parquet');ledger=pd.read_parquet(KR/'trades.parquet')
     fits=json.loads((KR/'fits.json').read_text());tuning=json.loads((KR/'tuning.json').read_text())
+    predictions=pd.read_parquet(KR/'predictions.parquet')
     require(len(fits)==25*N*len(C['jump_penalties']),'Incomplete model fits')
     require(all(x['last_train_target']<=x['asof'] for x in fits),'Training target leak')
     require(all(x['validation_last']<=x['asof'] for x in tuning),'Validation future-return leak')
     tags=['study','strategy','cost_bp','delay','cash_rule'];maximum=0.;count=0;days=0
     expected=d['cal'][(d['cal']>=C['evaluation_start'])&(d['cal']<=C['end'])]
+    require(len(predictions)==len(expected)*N*5,'Missing model/asset predictions')
+    require(np.isfinite(predictions.p0).all() and predictions.p0.between(0,1).all(),'Invalid probabilities')
+    for _,g in predictions.groupby(['study','classifier','asset']):
+        require(pd.DatetimeIndex(g.sort_values('date').date).equals(expected),'Model forecast calendar gap')
+    controlled=predictions.loc[predictions.study=='controlled'].groupby(['date','asset'])
+    require(controlled.classifier.nunique().eq(3).all(),'Missing shared-condition classifier')
+    require(controlled[['penalty','mu0','mu1','halflife','asof','signal_date']].nunique().eq(1).all().all(),'Model comparison conditions differ')
+    require(predictions.loc[predictions.study=='controlled','halflife'].eq(C['controlled_halflife']).all(),'Controlled smoothing changed')
     for key,g in target.groupby(tags):
         g=g.sort_values('date');dates=pd.DatetimeIndex(g.date);require(dates.equals(expected),'Evaluation calendar changed')
         require((g[ALL].min().min()>=-1e-8) and np.allclose(g[ALL].sum(axis=1),1),'Invalid target weights')
