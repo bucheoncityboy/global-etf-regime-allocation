@@ -2,6 +2,7 @@
 *.zip binary
 *.parquet binary
 *.png binary
-results/*.json -text
-results/*.csv -text
-data/manifest.json -text
+# Preserve the hashed Windows-generated records byte for byte on other platforms.
+results/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
