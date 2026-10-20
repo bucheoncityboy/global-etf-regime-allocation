@@ -1,19 +1,33 @@
 import assert from 'node:assert/strict';
-import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, access, open, rename, unlink } from 'node:fs/promises';
+import { randomUUID } from 'node:crypto';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, sha256 } from './study.ts';
 interface Receipt {path:string;url:string;sha256:string;fetched_at_utc:string;bytes:number}
 const raw=resolve(root,'data/private/korea/raw');
 async function exists(p:string):Promise<boolean>{try{await access(p);return true;}catch{return false;}}
+export async function koreaAtomicWrite(path:string,data:string|Uint8Array):Promise<void>{
+  const temporary=path+'.'+randomUUID()+'.tmp';
+  try{
+    const file=await open(temporary,'wx');
+    try{await file.writeFile(data);await file.sync();}finally{await file.close();}
+    await rename(temporary,path);
+  }finally{
+    try{await unlink(temporary);}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
+  }
+}
 export async function acquireBonds():Promise<void>{
   await mkdir(raw,{recursive:true});await mkdir(resolve(raw,'kis'),{recursive:true});
   const c=JSON.parse(await readFile(resolve(root,'configs/korea.json'),'utf8')) as {raw_start:string;end:string};
   const receipts:Receipt[]=[];let cookie='';let minimumInterval=2600,lastRequestAt=0;
   async function save(name:string,url:string,kis=false):Promise<string>{
     const path=resolve(raw,name),meta=path+'.meta.json';
-    if(await exists(path)&&await exists(meta)){const m=JSON.parse(await readFile(meta,'utf8')) as Receipt;const b=await readFile(path);
-      assert.equal(m.url,url);assert.equal(sha256(b),m.sha256);receipts.push(m);return b.toString('utf8');}
+    if(await exists(path)&&await exists(meta)){
+      try{const m=JSON.parse(await readFile(meta,'utf8')) as Receipt;const b=await readFile(path);
+        assert.equal(m.url,url);assert.equal(sha256(b),m.sha256);receipts.push(m);return b.toString('utf8');
+      }catch(cause){throw new Error(`Invalid cached KIS response or receipt: ${name}; preserve it before reacquisition`,{cause});}
+    }
     for(let attempt=0;attempt<8;attempt++)try{
       if(kis){const wait=minimumInterval-(Date.now()-lastRequestAt);if(wait>0)await new Promise<void>(r=>setTimeout(r,wait));lastRequestAt=Date.now();}
       const response=await fetch(url,{headers:kis?{cookie,Referer:'https://www.bond.co.kr/conts/10050','X-Requested-With':'XMLHttpRequest'}:{'User-Agent':'Mozilla/5.0'},signal:AbortSignal.timeout(30000)});
@@ -25,7 +39,7 @@ export async function acquireBonds():Promise<void>{
       assert.equal(response.status,200);const bytes=Buffer.from(await response.arrayBuffer());const text=bytes.toString('utf8');
       if(kis){const j:unknown=JSON.parse(text);assert.ok(Array.isArray(j)&&j.length>=6,'KIS response missing indices');}
       const m={path:name,url,sha256:sha256(bytes),bytes:bytes.length,fetched_at_utc:new Date().toISOString()};
-      await writeFile(path,bytes);await writeFile(meta,JSON.stringify(m,null,2)+'\n');receipts.push(m);return text;
+      await koreaAtomicWrite(path,bytes);await koreaAtomicWrite(meta,JSON.stringify(m,null,2)+'\n');receipts.push(m);return text;
     }catch(error){if(attempt===7)throw error;await new Promise<void>(r=>setTimeout(r,(attempt+1)*1000));}
     throw new Error('Unreachable');
   }

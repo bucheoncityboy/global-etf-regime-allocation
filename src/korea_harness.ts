@@ -1,8 +1,25 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { readFile, mkdtemp, mkdir, readdir, rm } from 'node:fs/promises';
+import { resolve, join, dirname, basename } from 'node:path';
+import { tmpdir } from 'node:os';
 import { root } from './study.ts';
 import { koreaRun, validateKorea, type KoreaConfig } from './korea.ts';
+import { koreaAtomicWrite } from './korea_bonds.ts';
+const cacheFixture=await mkdtemp(join(tmpdir(),'korea-cache-fixture-'));
+try{
+  const target=join(cacheFixture,'receipt.json');
+  await koreaAtomicWrite(target,'{"complete":1}\n');
+  await koreaAtomicWrite(target,'{"complete":2}\n');
+  assert.equal(await readFile(target,'utf8'),'{"complete":2}\n');
+  const blocked=join(cacheFixture,'existing-directory');await mkdir(blocked);
+  await assert.rejects(koreaAtomicWrite(blocked,'incomplete'));
+  assert.deepEqual((await readdir(cacheFixture)).sort(),['existing-directory','receipt.json']);
+  assert.equal(await readFile(target,'utf8'),'{"complete":2}\n');
+}finally{
+  assert.equal(dirname(resolve(cacheFixture)),resolve(tmpdir()));
+  assert.ok(basename(cacheFixture).startsWith('korea-cache-fixture-'));
+  await rm(cacheFixture,{recursive:true,force:true});
+}
 const config=JSON.parse(await readFile(resolve(root,'configs/korea.json'),'utf8')) as KoreaConfig;
 validateKorea(config);assert.throws(()=>validateKorea({...config,train_years:5}));
 assert.equal(config.assets.length,8);assert.equal((config['minimum_bullish_assets'] as number)-1,config.assets.length/4);
