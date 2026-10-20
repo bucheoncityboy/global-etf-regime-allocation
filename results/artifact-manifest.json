@@ -1,0 +1,20 @@
+{
+  "results/design-freeze.json": "27af61554c5547d704b5feb2a0f9a5d02ea8d608fe5d4fade4182d34d7875ec0",
+  "results/environment.json": "ee9b26f0d597fdcc9c47d519954d801e566ca01fb009caa4815a19e82e0ffeb9",
+  "results/figures/controlled.png": "f2d0c6790652944585d39b68b0747313756330acc05ef26d187badc3f09267bd",
+  "results/figures/paper.png": "b7576de31e3869101271b621e385d3cc832b442701975ecac531dcf496b262f2",
+  "results/figures/regimes.png": "e164195f40a3ed3ce27f401410ba869c99a6c9d28037e1556c39fd94612ccb0a",
+  "results/fits.json": "cb0da492ffe16913046337ccec11a965e22c2a15c519fd6b648b2bd476ae674c",
+  "results/forecast_quality.csv": "b91f26f5b71ec80d9d50b36549cfb10d4297cdca11664b60cf68c434c042aea5",
+  "results/individual.csv": "a51d22474483e59a70dcdd1cf67fc02fcc9117fef2ec5dda9581382e0ff372b9",
+  "results/jobs.json": "2ac605fd3d0a5f406bd05744e6e543001a4da4e2f8d695a8e6bfe67903637fb1",
+  "results/nav.parquet": "8951dcd2591064e38d958411a98086cada91e1a97b729b6c7d06577976df1ce5",
+  "results/paired_intervals.csv": "b269ae166c57dce2ec1ce424f208f53de71f566a9be978b6250f6d317f74b5b8",
+  "results/predictions.parquet": "6c927b58cc15fdb43292d672ffa9ac6deea5da1a34255b2600b7746c57708acc",
+  "results/return_forecast_ic.csv": "51091ae4e4450513efb0aea24f2d5cc04aba87ec0f08b5aaf225eb3bfca02d77",
+  "results/summary.csv": "cf2f02ea6336b692cc7d3e9737dbe2b269a6834d32480817a08806795ca2f37d",
+  "results/targets.parquet": "8e2ff4d9d4a6f844072c36cbeb782a1c71006dbb349432e9c80883daa1384cfa",
+  "results/trades.parquet": "ef9765aac51d8137cf2417765dbb47163d96296d60aa943111ceb9613a4e541b",
+  "results/tuning.json": "42685dbeb39f32efb6d4106caa99c841522106fb2509ba5da0720b4cc79aa6f8",
+  "results/verification.json": "e59705707457afe431bae22eab6d289b73cdba5b6d73d0c9a8fbd1e0d7ae5c74"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "seed": 240609578,
+  "assets": ["SPY", "IJH", "IWM", "EFA", "EEM", "AGG", "TLT", "HYG", "LQD", "IYR", "DBC", "GLD"],
+  "cash": "BIL",
+  "end": "2025-09-30",
+  "profiles": [
+    {"id": "main", "train_years": 5, "validation_years": 3, "validation_start": "2013-01-02", "start": "2016-01-04", "months": 117},
+    {"id": "longer", "train_years": 7, "validation_years": 3, "validation_start": "2015-01-02", "start": "2018-01-02", "months": 93},
+    {"id": "paper_window", "train_years": 11, "validation_years": 5, "validation_start": "2019-01-02", "start": "2024-01-02", "months": 21}
+  ],
+  "jump_penalties": [0, 0.1, 1, 10, 100],
+  "jump_n_init": 10,
+  "jump_exclude_dd": ["AGG", "TLT", "GLD"],
+  "classifiers": ["prior", "jm", "lr", "xgb"],
+  "xgb": {"n_estimators": 100, "max_depth": 6, "learning_rate": 0.3, "n_jobs": 1},
+  "logistic": {"C": 1.0, "max_iter": 2000},
+  "paper_smoothing": [0, 2, 4, 8],
+  "controlled_smoothing": 4,
+  "controlled_selection": "mean of LR and XGB validation net excess Sharpe",
+  "cost_bp": 5,
+  "cost_sensitivity_bp": [0, 10, 25],
+  "weight_cap": 0.4,
+  "minimum_bullish_assets": 4,
+  "regime_risk_aversion": 10,
+  "baseline_mv_risk_aversion": 5,
+  "covariance_halflife": 252,
+  "baseline_mean_halflife": 1260,
+  "bearish_mean_cap": -0.001,
+  "bootstrap": {"replications": 2000, "block_days": 21, "risk_aversion": 5},
+  "input_snapshot_sha256": "816dfd73aad49c59c75dc2baf4c4328794a0b74345b9ba34c0082b55251b9df1",
+  "scope": "Public ETF proxy application. Not identical-data replication or a prospective untouched holdout."
+}

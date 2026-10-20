@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "accounts": 42,
+  "account_days": 72720,
+  "fits": 3720,
+  "prediction_rows": 348120,
+  "independent_replay_max_nav_error": 5.666578317686799e-13,
+  "independent_replay_max_fee_error": 1.2984405217686401e-15,
+  "independent_replay_max_trade_error": 2.5912605394751154e-13,
+  "training_target_cutoff": "passed",
+  "shared_model_conditions": "passed",
+  "complete_prediction_calendar": "passed",
+  "summary_recalculation": "passed",
+  "future_online_prefix_checks": "performed for every JM fit"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "global-etf-regime-allocation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "study": "tsx src/study.ts",
+    "test": "tsx src/harness.ts",
+    "typecheck": "tsc --noEmit",
+    "reproduce": "tsx src/study.ts all",
+    "verify": "tsx src/study.ts verify"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.15",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

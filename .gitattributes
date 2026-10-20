@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.zip binary
+*.parquet binary
+*.png binary
+results/*.json -text
+results/*.csv -text
+data/manifest.json -text

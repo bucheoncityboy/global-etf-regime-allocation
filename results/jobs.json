@@ -1,0 +1,5954 @@
+[
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2013-01-01",
+    "asof": "2012-12-31",
+    "first": "2013-01-02",
+    "last": "2013-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2013-07-01",
+    "asof": "2013-06-28",
+    "first": "2013-07-01",
+    "last": "2013-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2014-01-01",
+    "asof": "2013-12-31",
+    "first": "2014-01-02",
+    "last": "2014-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2014-07-01",
+    "asof": "2014-06-30",
+    "first": "2014-07-01",
+    "last": "2014-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "main",
+    "asset": "SPY",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IJH",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IWM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EFA",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "EEM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "AGG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "TLT",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "HYG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "LQD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "IYR",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "DBC",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "main",
+    "asset": "GLD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2015-01-01",
+    "asof": "2014-12-31",
+    "first": "2015-01-02",
+    "last": "2015-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2015-07-01",
+    "asof": "2015-06-30",
+    "first": "2015-07-01",
+    "last": "2015-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2016-01-01",
+    "asof": "2015-12-31",
+    "first": "2016-01-04",
+    "last": "2016-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2016-07-01",
+    "asof": "2016-06-30",
+    "first": "2016-07-01",
+    "last": "2016-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2017-01-01",
+    "asof": "2016-12-30",
+    "first": "2017-01-03",
+    "last": "2017-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2017-07-01",
+    "asof": "2017-06-30",
+    "first": "2017-07-03",
+    "last": "2017-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2018-01-01",
+    "asof": "2017-12-29",
+    "first": "2018-01-02",
+    "last": "2018-06-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2018-07-01",
+    "asof": "2018-06-29",
+    "first": "2018-07-02",
+    "last": "2018-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "SPY",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IJH",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IWM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EFA",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "EEM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "AGG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "TLT",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "HYG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "LQD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "IYR",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "DBC",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "longer",
+    "asset": "GLD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2019-01-01",
+    "asof": "2018-12-31",
+    "first": "2019-01-02",
+    "last": "2019-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2019-07-01",
+    "asof": "2019-06-28",
+    "first": "2019-07-01",
+    "last": "2019-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2020-01-01",
+    "asof": "2019-12-31",
+    "first": "2020-01-02",
+    "last": "2020-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2020-07-01",
+    "asof": "2020-06-30",
+    "first": "2020-07-01",
+    "last": "2020-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2021-01-01",
+    "asof": "2020-12-31",
+    "first": "2021-01-04",
+    "last": "2021-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2021-07-01",
+    "asof": "2021-06-30",
+    "first": "2021-07-01",
+    "last": "2021-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2022-01-01",
+    "asof": "2021-12-31",
+    "first": "2022-01-03",
+    "last": "2022-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2022-07-01",
+    "asof": "2022-06-30",
+    "first": "2022-07-01",
+    "last": "2022-12-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2023-01-01",
+    "asof": "2022-12-30",
+    "first": "2023-01-03",
+    "last": "2023-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2023-07-01",
+    "asof": "2023-06-30",
+    "first": "2023-07-03",
+    "last": "2023-12-29"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2024-01-01",
+    "asof": "2023-12-29",
+    "first": "2024-01-02",
+    "last": "2024-06-28"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2024-07-01",
+    "asof": "2024-06-28",
+    "first": "2024-07-01",
+    "last": "2024-12-31"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2025-01-01",
+    "asof": "2024-12-31",
+    "first": "2025-01-02",
+    "last": "2025-06-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "SPY",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IJH",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IWM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EFA",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "EEM",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "AGG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "TLT",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "HYG",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "LQD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "IYR",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "DBC",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  },
+  {
+    "profile": "paper_window",
+    "asset": "GLD",
+    "boundary": "2025-07-01",
+    "asof": "2025-06-30",
+    "first": "2025-07-01",
+    "last": "2025-09-30"
+  }
+]

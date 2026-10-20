@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+data/raw/
+data/prepared.pkl
+results/cache/
+*.log
+__pycache__/
