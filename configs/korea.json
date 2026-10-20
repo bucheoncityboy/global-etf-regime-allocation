@@ -1,0 +1,186 @@
+{
+  "id": "korea-long-index-v1",
+  "status": "predeclared_before_model_performance",
+  "paper": "https://arxiv.org/html/2406.09578v2",
+  "raw_start": "2001-01-01",
+  "train_start": "2002-07-01",
+  "validation_start": "2013-07-01",
+  "evaluation_start": "2018-07-01",
+  "end": "2025-09-30",
+  "train_years": 11,
+  "validation_years": 5,
+  "refit_months": 6,
+  "assets": [
+    "KOSPI",
+    "KOSDAQ",
+    "BondShort",
+    "Bond1_2",
+    "Bond2_3",
+    "Bond3_5",
+    "Bond5plus",
+    "USD"
+  ],
+  "cash": "CD_proxy",
+  "series": {
+    "KOSPI": {
+      "provider": "Naver Finance",
+      "ticker": "KOSPI",
+      "kind": "price_index",
+      "dividends_included": false
+    },
+    "KOSDAQ": {
+      "provider": "Naver Finance",
+      "ticker": "KOSDAQ",
+      "kind": "price_index",
+      "dividends_included": false
+    },
+    "BondShort": {
+      "provider": "KIS",
+      "ticker": "BC001056",
+      "name": "KIS단기지수 (3M-1Y)",
+      "kind": "total_return_index"
+    },
+    "Bond1_2": {
+      "provider": "KIS",
+      "ticker": "BC001057",
+      "name": "KIS중단기지수(1-2Y)",
+      "kind": "total_return_index"
+    },
+    "Bond2_3": {
+      "provider": "KIS",
+      "ticker": "BC001058",
+      "name": "KIS중기지수 (2-3Y)",
+      "kind": "total_return_index"
+    },
+    "Bond3_5": {
+      "provider": "KIS",
+      "ticker": "BC001059",
+      "name": "KIS중장기지수(3-5Y)",
+      "kind": "total_return_index"
+    },
+    "Bond5plus": {
+      "provider": "KIS",
+      "ticker": "BC001060",
+      "name": "KIS장기지수 (5Y-)",
+      "kind": "total_return_index"
+    },
+    "USD": {
+      "provider": "BOK ECOS",
+      "table": "731Y001",
+      "item": "0000001",
+      "name": "원/미국달러(매매기준율)",
+      "kind": "currency_price_no_interest"
+    }
+  },
+  "ecos": {
+    "yield3": {
+      "table": "817Y002",
+      "item": "010200000",
+      "name": "국고채(3년)"
+    },
+    "yield10": {
+      "table": "817Y002",
+      "item": "010210000",
+      "name": "국고채(10년)"
+    },
+    "cash": {
+      "table": "817Y002",
+      "item": "010502000",
+      "name": "CD(91일)"
+    },
+    "USD": {
+      "table": "731Y001",
+      "item": "0000001",
+      "name": "원/미국달러(매매기준율)"
+    }
+  },
+  "jump_penalties": [
+    0,
+    0.1,
+    0.31622776601683794,
+    1,
+    3.1622776601683795,
+    10,
+    31.622776601683793,
+    100
+  ],
+  "jump_grid_note": "Zero plus seven logarithmically spaced positive values; paper does not disclose exact grid count. Fixed before performance.",
+  "jump_n_init": 10,
+  "jump_exclude_dd": [],
+  "seed": 240609578,
+  "xgb": {
+    "n_jobs": 1,
+    "max_depth": 6,
+    "n_estimators": 100,
+    "learning_rate": 0.3
+  },
+  "logistic": {
+    "C": 1,
+    "max_iter": 2000
+  },
+  "halflives": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "controlled_halflife": 4,
+  "controlled_selection": "Mean of LR and XGB past-five-year net 0/1 Sharpes; shared JM labels, conditional means and smoothing for all models",
+  "paper_selection": "XGB-only net 0/1 Sharpe; jointly choose lambda and half-life in initial validation, freeze half-life thereafter",
+  "weight_cap": 0.4,
+  "minimum_bullish_assets": 3,
+  "cash_rule_note": "Cash when bullish count <= 2 of 8: retains paper's <=25% threshold, rather than copying <=3 of 12 verbatim.",
+  "cost_bp": 5,
+  "cost_sensitivity_bp": [
+    0,
+    10,
+    20
+  ],
+  "covariance_halflife": 252,
+  "baseline_mean_halflife": 1260,
+  "bearish_mean_cap": -0.001,
+  "regime_risk_aversion": 10,
+  "baseline_mv_risk_aversion": 5,
+  "bootstrap": {
+    "risk_aversion": 5,
+    "replications": 2000,
+    "block_lengths": [
+      21,
+      63
+    ]
+  },
+  "conventions": {
+    "currency": "KRW",
+    "stock_dividends": "excluded; cannot claim total-return or investable ETF replication",
+    "bond_precision": "published two-decimal index levels; retain rounding, no inferred extra precision",
+    "missing_asset_level": "stop; no interpolation or intersection-calendar compression",
+    "rate_information": "latest observation strictly before signal date, max 10 calendar days old",
+    "currency_level": "same-session published BOK reference rate, exact date required",
+    "cash_return": "previous available CD(91d) annual yield / 100 / 252; modeled reserve account, not risk-free security",
+    "global_volatility": "previous-date FRED VIX; proxy for global risk, not VKOSPI",
+    "market_features": "3y yield change, 10y-3y slope and slope change, log VIX change, KOSPI/GovBond 252-session correlation",
+    "execution": "index signal-close to next-close convention; additional one-session delay reported separately",
+    "fees": "risky legs only, reserve-account leg free; self-financing NAV equation",
+    "ewm_adjust": false,
+    "return_feature_min_periods": 63,
+    "clipping": false,
+    "covariance": "available-history normalized unbiased EWM, eigenvalue floor 1e-12 daily",
+    "unresolved_author_details": "grid count, clipping, EWM adjust, exact timing/cash daycount/solver are implementation conventions, not author-verified",
+    "stock_bond_correlation": "KOSPI / KIS aggregate BMM01, distinct from individual maturity buckets"
+  },
+  "data_design_revision": {
+    "reason": "Hankyung/KIS sector charts have 213 missing XKRX calendar dates including genuine trading days; no source-level interpolation accepted. Use direct KIS daily maturity indices instead. Naver stock source replaces Yahoo holiday bars and missing sessions.",
+    "made_before_any_korean_fit": true,
+    "bond_exposure": "Five maturity buckets of mixed Korean bond market; not separate government/bank/corporate credit sleeves."
+  },
+  "primary_comparison": {
+    "study": "controlled",
+    "allocation": "mv",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "cost_bp": 5,
+    "delay_sessions": 0,
+    "cash_rule": true,
+    "bootstrap_block_sessions": 21
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "partial_source_audit_only",
+  "strategy_performance_computed": false,
+  "checked_at_utc": "2026-10-20T16:06:22.643404+00:00",
+  "expected_sessions": 6109,
+  "primary_sessions_checked": 1907,
+  "primary_bond_levels_checked": 9535,
+  "source_payload_hash_chain": "2851c685d2f8a9dbf7a7fd95ac5bba5ed50f62ab65d96dd675fc9203a117aaf6",
+  "consecutive_day_return_checks": 7290,
+  "maximum_return_rounding_error": 9.63171587254211e-05,
+  "secondary_aggregate_overlap": 1873,
+  "secondary_match_fraction": 0.9919914575547251,
+  "secondary_discrepancies": [
+    {
+      "date": "2001-04-11 00:00:00",
+      "primary_kis": 102.27,
+      "secondary_hankyung": 102.11
+    },
+    {
+      "date": "2002-02-04 00:00:00",
+      "primary_kis": 109.74,
+      "secondary_hankyung": 109.69
+    },
+    {
+      "date": "2002-03-05 00:00:00",
+      "primary_kis": 110.54,
+      "secondary_hankyung": 110.4
+    },
+    {
+      "date": "2002-08-13 00:00:00",
+      "primary_kis": 115.2,
+      "secondary_hankyung": 0.0169
+    },
+    {
+      "date": "2004-04-08 00:00:00",
+      "primary_kis": 127.52,
+      "secondary_hankyung": 127.5
+    },
+    {
+      "date": "2004-11-05 00:00:00",
+      "primary_kis": 133.99,
+      "secondary_hankyung": 133.97
+    },
+    {
+      "date": "2005-01-10 00:00:00",
+      "primary_kis": 135.15,
+      "secondary_hankyung": -0.0263
+    },
+    {
+      "date": "2005-02-04 00:00:00",
+      "primary_kis": 133.27,
+      "secondary_hankyung": -0.1726
+    },
+    {
+      "date": "2005-05-09 00:00:00",
+      "primary_kis": 135.89,
+      "secondary_hankyung": -0.0134
+    },
+    {
+      "date": "2005-09-30 00:00:00",
+      "primary_kis": 136.0,
+      "secondary_hankyung": 136.02
+    },
+    {
+      "date": "2005-10-18 00:00:00",
+      "primary_kis": 135.54,
+      "secondary_hankyung": 135.51
+    },
+    {
+      "date": "2005-11-23 00:00:00",
+      "primary_kis": 135.57,
+      "secondary_hankyung": 135.42
+    },
+    {
+      "date": "2006-02-03 00:00:00",
+      "primary_kis": 137.51,
+      "secondary_hankyung": 133.48
+    },
+    {
+      "date": "2006-06-26 00:00:00",
+      "primary_kis": 140.28,
+      "secondary_hankyung": 0.0192
+    },
+    {
+      "date": "2008-07-14 00:00:00",
+      "primary_kis": 152.06,
+      "secondary_hankyung": 152.12
+    }
+  ],
+  "primary_levels_interpolated": 0
+}

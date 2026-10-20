@@ -5,3 +5,4 @@ data/prepared.pkl
 results/cache/
 *.log
 __pycache__/
+data/private/

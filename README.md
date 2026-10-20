@@ -1,5 +1,7 @@
 # 국면 예측을 활용한 글로벌 ETF 자산배분
 
+> **국내 실험 진행 중:** [한국 시장 설계와 실행 방법](docs/korea-design.md). 11년 학습·5년 검증을 유지하며, 아래 표는 기존 글로벌 ETF 연구 결과다. 국내 성과는 원자료 수집과 독립 검증이 끝난 뒤 별도로 생성한다.
+
 **12개 자산군으로 다시 구성한 Jump Model–XGBoost ETF 응용 연구.**
 
 [![검증](https://github.com/bucheoncityboy/global-etf-regime-allocation/actions/workflows/ci.yml/badge.svg)](https://github.com/bucheoncityboy/global-etf-regime-allocation/actions/workflows/ci.yml)
