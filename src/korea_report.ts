@@ -22,6 +22,15 @@ def korea_report():
     lines+=['',f'XGB−LR 연율 CER 차이: **{comparison["estimate"]*100:+.3f}%p**, 21거래일 블록 재표집 95% 구간 **[{comparison["ci_low"]*100:+.3f}, {comparison["ci_high"]*100:+.3f}]%p**.',
         'CER의 위험회피계수는 5다. 구간은 이미 적합된 예측에 조건부이며, 모형 재학습 불확실성이나 여러 비교에 대한 보정은 포함하지 않는다.','',
         '![동일 조건 MV 누적성과](nav.png)','','## 2. 논문과 비교','',
+        '논문형 경로의 편도5bp 비용 차감 결과다. 기본 배분과 JM–XGBoost 국면 배분을 같은 한국 평가기간에서 비교한다.','',
+        '| 배분 | 기본 샤프 | 국면 샤프 | 기본 최대낙폭 | 국면 최대낙폭 |',
+        '| --- | ---: | ---: | ---: | ---: |']
+    for kind,label in [('mv','평균분산'),('minvar','최소분산'),('ew','동일가중')]:
+        baseline=s.loc[(s.study=='baseline')&(s.strategy==kind)].iloc[0]
+        regime=s.loc[(s.study=='paper')&(s.strategy==kind+'_xgb')].iloc[0]
+        lines.append(f'| {label} | {baseline.sharpe:.3f} | {regime.sharpe:.3f} | {baseline.mdd:.2%} | {regime.mdd:.2%} |')
+    lines+=['',
+        '이 표는 국면 신호·평균 추정·위험회피·거래 벌점·현금 규칙을 함께 바꾼 전체 전략 비교다. 분류기의 추가 가치는 동일 조건 경로에서 평가한다.','',
         '| 항목 | 원문 | 한국 실험 |','| --- | --- | --- |',
         '| 학습·검증·재학습 | 11년·5년·반기 | 동일 |',
         '| 평가 | 2007–2023, 204개월 | 2018.07–2025.09, 87개월 |',
@@ -40,6 +49,20 @@ def korea_report():
         def fmt(v):return '정의 불가' if pd.isna(v) else f'{v:.3f}'
         lines.append(f'| {a} | {fmt(ci.loc[a,"jm"])} | {fmt(ci.loc[a,"lr"])} | {fmt(ci.loc[a,"xgb"])} |')
     lines+=['','IC는 과거 국면의 조건부 평균으로 만든 당일 예측 초과수익과 실제 초과수익의 자산별 상관이다. 국면 분류 정확도와 구분하며, 국면의 정답은 해당 훈련모형의 온라인 JM 상태로 정의했다.','',
+        '| 동일 조건 배분 · 5bp | JM 샤프 | LR 샤프 | XGB 샤프 |',
+        '| --- | ---: | ---: | ---: |']
+    for kind,label in [('mv','평균분산'),('minvar','최소분산'),('ew','동일가중')]:
+        rows=primary.loc[primary.strategy.str.startswith(kind+'_')].set_index('strategy')
+        lines.append('| '+label+' | '+' | '.join(f'{rows.loc[kind+"_"+model,"sharpe"]:.3f}' for model in ['jm','lr','xgb'])+' |')
+    lines+=['','아래 조건은 사전 지정한 MV 민감도 분석이며, 주 비교는 5bp·추가 지연0·현금 규칙 적용이다.','',
+        '| MV 조건 | JM 샤프 | LR 샤프 | XGB 샤프 |',
+        '| --- | ---: | ---: | ---: |']
+    cases=[(cost,0,True,f'편도 {cost}bp') for cost in [0,5,10,20]]+[(5,1,True,'1거래일 추가 지연'),(5,0,False,'강제 현금 전환 해제')]
+    for cost,delay,cash_rule,label in cases:
+        rows=s.loc[(s.study=='controlled')&s.strategy.str.startswith('mv_')&(s.cost_bp==cost)&(s.delay==delay)&(s.cash_rule==cash_rule)].set_index('strategy')
+        require(len(rows)==3,'Incomplete reported MV sensitivity')
+        lines.append('| '+label+' | '+' | '.join(f'{rows.loc["mv_"+model,"sharpe"]:.3f}' for model in ['jm','lr','xgb'])+' |')
+    lines+=['',
         '## 4. 실험 설계','',
         '2001년 자료는 지표 준비에 사용한다. 최초 학습은 2002.07–2013.06, 순차 검증은 2013.07–2018.06, 평가는 2018.07 이후다. 매년 1·7월에 이전 11년으로 다시 학습하고, 그때까지 존재하는 직전 5년의 순차 예측으로 λ를 선택한다. 최초 학습부터 평가까지의 명목 11년·5년을 줄이지 않았다.','',
         'JM은 자산별 2상태·초기화10회다. 분류기는 수익률 피처8개와 시장 피처5개를 사용하며, X[t]에 대한 라벨은 학습 구간 안에 존재하는 JM[t+1]만 허용한다. XGBoost 2.1.4의 깊이6·100트리·학습률0.3과 로지스틱 C=1을 고정했다.','',

@@ -102,6 +102,8 @@ with tempfile.TemporaryDirectory(prefix='korea-unit-fixture-') as td:
     write_json(KR/'verification.json',{'accounts':31,'account_days':31*len(dates),'max_nav_error':0.})
     write_json(KR/'input-receipt.json',{'sessions':len(cal)})
     korea_report();require((KR/'README.md').exists() and (KR/'nav.png').exists(),'Report generator failed')
+    report=(KR/'README.md').read_text(encoding='utf-8')
+    require(report.count('\n## ')==8 and '| 기본 샤프 | 국면 샤프 |' in report and '| 1거래일 추가 지연 |' in report,'Eight-section report is missing strategy comparison or execution sensitivity')
 print('PASS: causal fits, rolling validation, 31 allocation paths, independent fee/NAV replay, report generation, synthetic rejection')
 `,true);
 console.log('Korea harness passed: future-data invariance, 11/5 schedule, 31 account paths, independent NAV replay, report generation. All fixtures were temporary; no Korean financial performance was generated.');
