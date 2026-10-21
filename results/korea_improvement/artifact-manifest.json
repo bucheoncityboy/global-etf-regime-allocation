@@ -1,0 +1,18 @@
+{
+  "files": {
+    "design-freeze.json": "2ab3a63ed3dcf34aa39376128f33db14711d770a39ae4c69b58c5ef1c4636b98",
+    "summary.csv": "3524fc314046b8a23667e6e022d9a59690ee97e2ecbfc175a48f55718e9ba20f",
+    "nav.parquet": "b4fe5f16fedc639448fa158465d30253f1edcb6a00c0f5c4f42d42b616ff400d",
+    "targets.parquet": "e4d2159d689eaeb375853c9d8a0a43e22bc07afc68bdaa12c0dc3e75b6b46642",
+    "trades.parquet": "e3cb0da8712627510ca485dd76b5885b2c204b6472c1559cb20e97b4e828650e",
+    "bootstrap.json": "c8eb91591b67905145603ed3cff7d126cb267c59668875f2d44c686648eba4e5",
+    "contributions.csv": "fbaccf28abb60f49296c41eca40bd4e77ed304b6718459e7946042123f98ab7e",
+    "years.csv": "9917940296d3c4e69ccfa048c41e85182a6e04236fbf56b271dd299984bd60cf",
+    "return-ic.csv": "a008fb6c14e419d4407407973c3b97dbe9a0b99841614f95eefc1aec6918eae9",
+    "verification.json": "fea132923260d9ec69213a98e67588b9713398538c7e357ba5cf8930c54593e9",
+    "status.json": "d12ff2535e9755b1fd1f89f884a6bf13225dbcd3ef9db590a046fd8ad7f55a26",
+    "README.md": "ba4920bdcd2bb6990d2aee930e31d93244c3a1747016259efb85973c40bbea79",
+    "nav.png": "555225f5fefc765ce3c11dce1077a48f0c778b87980febf2b68a982ea985f7cb"
+  },
+  "scope": "public output integrity; real-return replay additionally requires private source cache"
+}

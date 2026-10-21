@@ -1,0 +1,562 @@
+[
+  {
+    "candidate": "probability_lr_d0",
+    "reference": "hard_lr_d0",
+    "estimate": -0.013127470805340795,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.030193476557390762,
+    "ci_high": 0.0027538031166731186,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_lr_d0",
+    "reference": "hard_lr_d0",
+    "estimate": -0.013127470805340795,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.030691463575433175,
+    "ci_high": 0.004385411331920657,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_lr_d0",
+    "reference": "probability_lr_d0",
+    "estimate": 0.01686544430112018,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0013414392866354127,
+    "ci_high": 0.03574324501452231,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_lr_d0",
+    "reference": "probability_lr_d0",
+    "estimate": 0.01686544430112018,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.0003818704300726446,
+    "ci_high": 0.033313035501946996,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "shrink_lr_d0",
+    "estimate": 0.00016205435662687215,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0012566940379556387,
+    "ci_high": 0.0015485617126358637,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "shrink_lr_d0",
+    "estimate": 0.00016205435662687215,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.0008340567650856796,
+    "ci_high": 0.0010961597238014471,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "hard_lr_d0",
+    "estimate": 0.0039000278524062588,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.02624400485058498,
+    "ci_high": 0.034007870423572874,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "hard_lr_d0",
+    "estimate": 0.0039000278524062588,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.02509856741096362,
+    "ci_high": 0.03193081066255513,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "baseline_minvar_d0",
+    "estimate": -0.006751314796593761,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.020382299488542963,
+    "ci_high": 0.008968156372966659,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d0",
+    "reference": "baseline_minvar_d0",
+    "estimate": -0.006751314796593761,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.021324214230308426,
+    "ci_high": 0.010852023760695528,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d0",
+    "reference": "hard_xgb_d0",
+    "estimate": -0.013553935691841447,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.029267591084590053,
+    "ci_high": 0.0014758136237450028,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d0",
+    "reference": "hard_xgb_d0",
+    "estimate": -0.013553935691841447,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.028243949311284225,
+    "ci_high": 0.0021640428242421443,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d0",
+    "reference": "probability_xgb_d0",
+    "estimate": 0.012143204660747644,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.010337877410561077,
+    "ci_high": 0.03152891158410825,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d0",
+    "reference": "probability_xgb_d0",
+    "estimate": 0.012143204660747644,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.006752047866755531,
+    "ci_high": 0.030117183268215712,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "shrink_xgb_d0",
+    "estimate": 0.00013828795146482095,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0014589188397253,
+    "ci_high": 0.001445022184726835,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "shrink_xgb_d0",
+    "estimate": 0.00013828795146482095,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.0013837062276282166,
+    "ci_high": 0.0014653853978146172,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "hard_xgb_d0",
+    "estimate": -0.001272443079628982,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.031779008643130366,
+    "ci_high": 0.027640293709631433,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "hard_xgb_d0",
+    "estimate": -0.001272443079628982,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.03008781837249736,
+    "ci_high": 0.024577635835026167,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "baseline_minvar_d0",
+    "estimate": -0.011437463384525155,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.025119068891207314,
+    "ci_high": 0.0035303008457315903,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "baseline_minvar_d0",
+    "estimate": -0.011437463384525155,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.024670917098729497,
+    "ci_high": 0.003680238860950691,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "hard_xgb_d0",
+    "reference": "hard_lr_d0",
+    "estimate": 0.00048632234410384695,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.018242318011311678,
+    "ci_high": 0.0211908781232455,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "hard_xgb_d0",
+    "reference": "hard_lr_d0",
+    "estimate": 0.00048632234410384695,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.017279996982858554,
+    "ci_high": 0.01822156437584774,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d0",
+    "reference": "probability_lr_d0",
+    "estimate": 5.9857457603194235e-05,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.01595470846074076,
+    "ci_high": 0.01757428910188087,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d0",
+    "reference": "probability_lr_d0",
+    "estimate": 5.9857457603194235e-05,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.014965102487454963,
+    "ci_high": 0.015032975075212382,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d0",
+    "reference": "shrink_lr_d0",
+    "estimate": -0.004662382182769343,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.012635150810697444,
+    "ci_high": 0.0034180756020964357,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d0",
+    "reference": "shrink_lr_d0",
+    "estimate": -0.004662382182769343,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.01282583456970285,
+    "ci_high": 0.003448539854324855,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "buffer_lr_d0",
+    "estimate": -0.004686148587931394,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.012626734251752925,
+    "ci_high": 0.003510629325391957,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d0",
+    "reference": "buffer_lr_d0",
+    "estimate": -0.004686148587931394,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.014090216293118482,
+    "ci_high": 0.003633424477020408,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_lr_d1",
+    "reference": "hard_lr_d1",
+    "estimate": -0.008637704545154957,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.026421187280894997,
+    "ci_high": 0.010536499026418702,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_lr_d1",
+    "reference": "hard_lr_d1",
+    "estimate": -0.008637704545154957,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.026043530057951233,
+    "ci_high": 0.009391091016943194,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_lr_d1",
+    "reference": "probability_lr_d1",
+    "estimate": 0.01813785928641178,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0008818259609220612,
+    "ci_high": 0.03623255813175577,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_lr_d1",
+    "reference": "probability_lr_d1",
+    "estimate": 0.01813785928641178,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -1.867366822185805e-05,
+    "ci_high": 0.03462228889390867,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "shrink_lr_d1",
+    "estimate": -0.0005574627202627747,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.002043879407620567,
+    "ci_high": 0.000649973665721363,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "shrink_lr_d1",
+    "estimate": -0.0005574627202627747,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.002037387563090183,
+    "ci_high": 0.0005945166471746127,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "hard_lr_d1",
+    "estimate": 0.008942692020994047,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0225169706903834,
+    "ci_high": 0.039562059469746204,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "hard_lr_d1",
+    "estimate": 0.008942692020994047,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.018506575680426865,
+    "ci_high": 0.03740117348077373,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "baseline_minvar_d1",
+    "estimate": -0.00734793826185241,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.02200974055439415,
+    "ci_high": 0.008234202146538786,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_lr_d1",
+    "reference": "baseline_minvar_d1",
+    "estimate": -0.00734793826185241,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.022008788266171978,
+    "ci_high": 0.009994093799286933,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d1",
+    "reference": "hard_xgb_d1",
+    "estimate": -0.006804983624366601,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.02054548425674341,
+    "ci_high": 0.007704167277265433,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d1",
+    "reference": "hard_xgb_d1",
+    "estimate": -0.006804983624366601,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.019739860673881338,
+    "ci_high": 0.00611717520184659,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d1",
+    "reference": "probability_xgb_d1",
+    "estimate": 0.012475078288608665,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.007095342516791276,
+    "ci_high": 0.0308644773868301,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d1",
+    "reference": "probability_xgb_d1",
+    "estimate": 0.012475078288608665,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.005646176256949075,
+    "ci_high": 0.02800209153031897,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "shrink_xgb_d1",
+    "estimate": 0.00047727605257906133,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0006938456494555876,
+    "ci_high": 0.0015228738183582443,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "shrink_xgb_d1",
+    "estimate": 0.00047727605257906133,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.0006328003317200159,
+    "ci_high": 0.0014831197244234904,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "hard_xgb_d1",
+    "estimate": 0.006147370716821126,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.02177098378379448,
+    "ci_high": 0.03315977400654812,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "hard_xgb_d1",
+    "estimate": 0.006147370716821126,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.019551725020196767,
+    "ci_high": 0.031746339843526566,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "baseline_minvar_d1",
+    "estimate": -0.01067163636208923,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.025132791232211463,
+    "ci_high": 0.003007593126138843,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "baseline_minvar_d1",
+    "estimate": -0.01067163636208923,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.02350570451122219,
+    "ci_high": 0.00402443041739077,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "hard_xgb_d1",
+    "reference": "hard_lr_d1",
+    "estimate": -0.0005283767960638994,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.019533682156555064,
+    "ci_high": 0.018229285684351296,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "hard_xgb_d1",
+    "reference": "hard_lr_d1",
+    "estimate": -0.0005283767960638994,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.019389548091202354,
+    "ci_high": 0.01919830896373134,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d1",
+    "reference": "probability_lr_d1",
+    "estimate": 0.0013043441247244565,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.011724362954288066,
+    "ci_high": 0.014298460903443612,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "probability_xgb_d1",
+    "reference": "probability_lr_d1",
+    "estimate": 0.0013043441247244565,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.013212330760837675,
+    "ci_high": 0.014484665653402088,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d1",
+    "reference": "shrink_lr_d1",
+    "estimate": -0.0043584368730786565,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.011709234269865844,
+    "ci_high": 0.00239227838274588,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "shrink_xgb_d1",
+    "reference": "shrink_lr_d1",
+    "estimate": -0.0043584368730786565,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.012454974968410432,
+    "ci_high": 0.002739359099400379,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "buffer_lr_d1",
+    "estimate": -0.0033236981002368205,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.01061740327628448,
+    "ci_high": 0.003169716330612143,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  {
+    "candidate": "buffer_xgb_d1",
+    "reference": "buffer_lr_d1",
+    "estimate": -0.0033236981002368205,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.010623480061704466,
+    "ci_high": 0.0034716684000638764,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  }
+]

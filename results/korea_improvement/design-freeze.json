@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-10-21T07:09:34.202Z",
+  "scope": "post-result exploratory allocation experiment; not an untouched holdout or original-paper replication",
+  "sources": {
+    "src/korea.ts": "ca3b98f663ca957f42db84fa0817cbd73d489ceb95245f3722efe83d39d3c1a9",
+    "src/korea_kernel.ts": "d5137131136c20d966239bf7f2e3ee483f24f9dbba6554031ed8de6c440fc513",
+    "src/korea_data.ts": "7762a88c5ed9cc05f800660ac793a7c83f68973ec7876bcc41de726a6fbf38ba",
+    "src/korea_bonds.ts": "a78408af76196c549e2c2ddbe3f87298437b108b2272969fffb8279b45df8e59",
+    "src/korea_harness.ts": "13f1bd48c33da2c38b834801308d0bf64963aeaccad2228394cd0442e7e5600e",
+    "src/korea_report.ts": "867f02b08efde7088ca5b5e1a83a13fe71662cdc9aa0de6df19d389977f257f8",
+    "src/korea_pipeline.ts": "615f868a19ba3e296ce067b6a432a6e59e7bd7bd98ba03d4c598374b414967bf",
+    "src/kernel.ts": "a86c9bf093b5f438397e0131392dd256118ba9310fc9b01614c43cd81e61b9cd",
+    "src/portfolio.ts": "0485cae15ed59f864f16e0139fcb08a62675e0caa9bc30f82144082e221b0510",
+    "configs/korea.json": "81277752a25e9a3bfd37960a55a931299cc9cd76ce0899edc6de60cb752665d3",
+    "uv.lock": "6cf531e6ff78aed83b00cb50cb3753818561f5e96ab750c8e6f84e8d80ca8fb5",
+    "pyproject.toml": "e52d3254a124d90ad7dc34cadbefa83bdfc8a6582fc0512c7d8fc11525493db1",
+    ".python-version": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b",
+    "package-lock.json": "f252955e4a88c7959121b4cfbcb05b3a0c80df272c6b1ddfce8ed6dbe4227112",
+    "src/korea_improve.ts": "1f77ed3cd3cbe46e0fb7e7a78e984ad5fae2a62af6dc1cf2284491c28e2f420b",
+    "src/korea_improve_kernel.ts": "1deb07675f7a4819713cb1aa5128820c23aa62676970e8d3fc3ea40b50779289",
+    "src/korea_improve_report.ts": "6e78f69ac5d715bded8bdd39feb5710f8003290b7bf3a24f556525947e75b1b7",
+    "src/korea_improve_harness.ts": "70184fad2976d9f0c649c94baef115cee45c6d48b1ecdad297e7cbe118984a86",
+    "configs/korea-improvement.json": "0a372f37a2c5eb3ac35d79f9513ac1b1d03c811ed96978c9b156d015782bb28c",
+    "docs/korea-improvement-design.md": "8ad1e604b2a73efa4e0186bbc731b2b5bd1e38dbb3984714462f79ff705412a6"
+  },
+  "public_inputs": {
+    "results/korea/design-freeze.json": "666782039dacbc22484d135c795109d24f9f4718e87f19cd8b1aa1ca93231843",
+    "results/korea/input-receipt.json": "bbf946962d729f094d6a8aeebde8bceb3b34bb50cba9440c6729b23e90937ca5",
+    "results/korea/status.json": "552b5da0c72863e1721f7c711f7ac71cf3efcae53dfeed83e5f5b49c76bae05c",
+    "results/korea/verification.json": "2c2d4669be391bf21a363a85fc3a895121c76e7876c38b52f220d840e6859408",
+    "results/korea/predictions.parquet": "991382acef10e38f446cad7bffe523342a4f5f89af98b52d44fa2eaf48bcf4a1",
+    "results/korea/nav.parquet": "23d6692446520f9fa85e9d50afa856630eee7162394c0ab014c49438eaed2496",
+    "results/korea/targets.parquet": "ffd83516f971f487ffd7e112b84dba5a94d3a38ad8c4a1af16e8e5a3093c5120",
+    "results/korea/trades.parquet": "d04774ae495cfa5b6605bcb2643e6e2c30a339686e7d40ea87c346a21d03d9e1",
+    "results/korea/fits.json": "bcc8829d182f934e26d34ac614e513982ecf0c007609376db39486bc770ac6d0",
+    "results/korea/tuning.json": "7700eb098456622531b5c7649e44c1e894586de89bc5a856793644406c442ef4",
+    "results/korea/summary.csv": "1bcbb340f8b6cbc47559130aea5a6bf69f73ccb4a4268169202f766187a03815"
+  },
+  "prepared_sha256": "646ab3f545b8aaf3515213f0dd5923fcb73e9b7193c0320e7d3d9780bfa048e7"
+}

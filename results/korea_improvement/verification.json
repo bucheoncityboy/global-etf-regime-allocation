@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "accounts": 24,
+  "account_days": 42792,
+  "max_nav_error": 2.4935609133081016e-13,
+  "original_reference": {
+    "accounts": 8,
+    "max_nav_error": 0.0
+  },
+  "prepared_sha256": "646ab3f545b8aaf3515213f0dd5923fcb73e9b7193c0320e7d3d9780bfa048e7",
+  "forecasts_retrained": false,
+  "new_untouched_holdout": false,
+  "scope": "independent settlement replay with frozen real returns; allocation quality is not certified"
+}

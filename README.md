@@ -2,6 +2,8 @@
 
 > **국내 11년 학습·5년 검증 실험 완료:** [한국 결과 보고서](results/korea/README.md) · [결과 해석](docs/korea-findings.md) · [설계와 실행 방법](docs/korea-design.md). 사전 주 비교의 XGB−LR 연율 CER 차이는 +0.049%p, 95% 구간은 [-1.914, +2.101]%p로 우위를 확인하지 못했다. 아래 본문은 기존 글로벌 ETF 연구 결과다.
 
+> **배분 개선 후속 실험 완료:** [24계정 비교 보고서](results/korea_improvement/README.md) · [해석](docs/korea-improvement-findings.md). 확률 가중·평균 축소·거래 완충을 순서대로 적용했지만, 편도5bp·추가1일 지연의 XGB 샤프는 기존 −0.116에서 최종 −0.375로 낮아졌다. 기존 결과를 보존한 사후 탐색이며 새 모델을 학습한 결과는 아니다.
+
 **12개 자산군으로 다시 구성한 Jump Model–XGBoost ETF 응용 연구.**
 
 [![검증](https://github.com/bucheoncityboy/global-etf-regime-allocation/actions/workflows/ci.yml/badge.svg)](https://github.com/bucheoncityboy/global-etf-regime-allocation/actions/workflows/ci.yml)

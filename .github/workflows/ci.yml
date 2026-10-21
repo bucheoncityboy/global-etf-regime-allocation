@@ -16,4 +16,6 @@ jobs:
       - run: npm run study -- restore
       - run: npx tsx src/harness.ts
       - run: npx tsx src/korea_harness.ts
+      - run: npx tsx src/korea_improve_harness.ts
+      - run: npx tsx src/korea_improve.ts verify-public
       - run: npm run verify

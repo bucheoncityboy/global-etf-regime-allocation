@@ -1,0 +1,33 @@
+{
+  "id": "korea-allocation-improvement-v1",
+  "scope": "post-result exploratory allocation experiment; not an untouched holdout or original-paper replication",
+  "original_commit": "11e68542871215d5134f330f02f266fa5b79553d",
+  "evaluation_start": "2018-07-01",
+  "end": "2025-09-30",
+  "classifiers": ["lr", "xgb"],
+  "variants": [
+    {"id": "hard", "probability_weighted": false, "mean_multiplier": 1, "turnover_buffer": 0},
+    {"id": "probability", "probability_weighted": true, "mean_multiplier": 1, "turnover_buffer": 0},
+    {"id": "shrink", "probability_weighted": true, "mean_multiplier": 0.5, "turnover_buffer": 0},
+    {"id": "buffer", "probability_weighted": true, "mean_multiplier": 0.5, "turnover_buffer": 0.02}
+  ],
+  "baselines": ["mv", "minvar", "ew", "cash"],
+  "cost_bp": 5,
+  "delays": [0, 1],
+  "primary_delay": 1,
+  "primary_variant": "buffer",
+  "primary_comparison": "buffer XGB minus hard XGB, 5bp and one additional session delay",
+  "secondary_comparisons": "adjacent variants, XGB minus LR, and buffer versus basic minimum variance; all published, no best-variant promotion",
+  "probability_rule": "p0 * mu0 + (1-p0) * min(mu1,-0.001); the original bearish cap remains fixed to isolate probability weighting",
+  "buffer_rule": "Keep the drifted current weights when proposed risky-leg L1 turnover is below 2% of NAV; forced cash and correction of an existing weight-cap breach override the buffer",
+  "fixed_conditions": "Frozen controlled forecasts, shared lambda and h=4, 11-year rolling training, 5-year sequential validation, biannual refits, 40% per-asset cap, no leverage/shorts, original global cash rule and optimizer",
+  "no_retraining_or_parameter_search": true,
+  "bootstrap": {"risk_aversion": 5, "replications": 2000, "block_lengths": [21, 63], "seed": 240609579},
+  "limitations": [
+    "Existing Korean evaluation performance was observed before this design.",
+    "Stock dividends and USD interest remain excluded; no synthetic filling is introduced.",
+    "Delay 0 retains the idealized signal-close convention. Delay 1 uses the preceding session's decision inputs and the current drifted holdings at execution.",
+    "Bootstrap is conditional on frozen forecasts and does not adjust for multiple comparisons or model refitting.",
+    "Classifier retraining, probability calibration, new total-return data and a new asset universe are outside this allocation-only phase."
+  ]
+}

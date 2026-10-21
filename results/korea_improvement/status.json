@@ -1,0 +1,19 @@
+{
+  "status": "executed_and_independently_verified",
+  "scope": "post-result exploratory allocation experiment; not an untouched holdout or original-paper replication",
+  "forecasts_retrained": false,
+  "new_untouched_holdout": false,
+  "accounts": 24,
+  "account_days": 42792,
+  "primary_comparison": {
+    "candidate": "buffer_xgb_d1",
+    "reference": "hard_xgb_d1",
+    "estimate": 0.006147370716821126,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.02177098378379448,
+    "ci_high": 0.03315977400654812,
+    "scope": "post-result exploratory, conditional on frozen forecasts, no refitting or multiple-comparison adjustment"
+  },
+  "original_korean_results_preserved": true
+}
