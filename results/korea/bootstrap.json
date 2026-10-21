@@ -1,0 +1,134 @@
+[
+  {
+    "allocation": "mv",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0004863223441038472,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.019142230305134393,
+    "ci_high": 0.021005976345650133,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "mv",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0004863223441038472,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.018157097965073178,
+    "ci_high": 0.018237770860978175,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "mv",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0036960606417932858,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.025472481795579,
+    "ci_high": 0.03271409670446133,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "mv",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0036960606417932858,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.02298144713682138,
+    "ci_high": 0.029493567593885578,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "minvar",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0016368528418924974,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.004551987611547987,
+    "ci_high": 0.008312307334343497,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "minvar",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0016368528418924974,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.0029016479289355585,
+    "ci_high": 0.0063155154123317545,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "minvar",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.002273139946940616,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.0053288759869237305,
+    "ci_high": 0.0114270795922374,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "minvar",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.002273139946940616,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.004693957120606715,
+    "ci_high": 0.009165956287939672,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "ew",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0030792576122814835,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.015540372217921596,
+    "ci_high": 0.023159935412031814,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "ew",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0030792576122814835,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.010944248416124661,
+    "ci_high": 0.01632789340558684,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "ew",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0053608352301339444,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.01637127022158184,
+    "ci_high": 0.028502528292284106,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  },
+  {
+    "allocation": "ew",
+    "comparison": "xgb-jm",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0053608352301339444,
+    "block_sessions": 63,
+    "replications": 2000,
+    "ci_low": -0.016119529590311675,
+    "ci_high": 0.02511031062520187,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  }
+]

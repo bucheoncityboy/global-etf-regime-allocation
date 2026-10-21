@@ -1,0 +1,27 @@
+{
+  "status": "executed_and_independently_verified",
+  "strategy_performance_computed": true,
+  "original_paper_replication": false,
+  "stock_dividends_included": false,
+  "verification": {
+    "status": "passed",
+    "accounts": 31,
+    "account_days": 55273,
+    "fits": 1600,
+    "max_nav_error": 1.7252865802674933e-12,
+    "evaluation_months": 87,
+    "stock_total_return": false,
+    "original_paper_replication": false
+  },
+  "primary_comparison": {
+    "allocation": "mv",
+    "comparison": "xgb-lr",
+    "metric": "annual_CER_difference",
+    "estimate": 0.0004863223441038472,
+    "block_sessions": 21,
+    "replications": 2000,
+    "ci_low": -0.019142230305134393,
+    "ci_high": 0.021005976345650133,
+    "scope": "paired conditional-on-fitted-forecasts uncertainty, not model-retraining or multiple-testing adjusted"
+  }
+}

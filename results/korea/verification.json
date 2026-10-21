@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "accounts": 31,
+  "account_days": 55273,
+  "fits": 1600,
+  "max_nav_error": 1.7252865802674933e-12,
+  "evaluation_months": 87,
+  "stock_total_return": false,
+  "original_paper_replication": false
+}

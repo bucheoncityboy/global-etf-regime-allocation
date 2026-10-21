@@ -1,0 +1,8 @@
+{
+  "started_at_utc": "2026-10-21T05:42:14.643Z",
+  "driver": "src/korea_resume.ts",
+  "driver_sha256": "b5bd3616e5444b1991c5f1e5d68fbc44920a4d4a3f666241b713a4d5fcb6d4f4",
+  "original_design_freeze_sha256": "666782039dacbc22484d135c795109d24f9f4718e87f19cd8b1aa1ca93231843",
+  "inputs_reprepared": false,
+  "note": "The fit and allocate commands check every originally frozen source and input; existing fit caches are reused."
+}
